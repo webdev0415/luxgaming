@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="147.456" height="149.297" viewBox="0 0 147.456 149.297">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ff" stop-opacity="0"/>
+      <stop offset="0.632" stop-color="#63f8f9" stop-opacity="0"/>
+      <stop offset="1" stop-color="#41f8ff" stop-opacity="0.29"/>
+    </radialGradient>
+    <filter id="Ellipse_12" x="57.522" y="111.297" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#4ff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#101f39"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ff"/>
+      <stop offset="0.665" stop-color="#20dfe6"/>
+      <stop offset="1" stop-color="#1ddee5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="Ellipse_10" x="49.522" y="105.297" width="48" height="44" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#4ff"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-4" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6ddcff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#004594" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d9d9" stop-opacity="0"/>
+      <stop offset="0.402" stop-color="aqua" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f3ffff"/>
+    </linearGradient>
+    <filter id="Subtraction_17" x="0" y="0" width="147.456" height="146.012" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-3"/>
+      <feFlood flood-color="#7affff"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="tournament" transform="translate(-581.478 -432.703)">
+    <g id="MapMarker" transform="translate(603.978 438)" style="isolation: isolate">
+      <g transform="matrix(1, 0, 0, 1, -22.5, -5.3)" filter="url(#Ellipse_12)" style="mix-blend-mode: color-dodge;isolation: isolate">
+        <g id="Ellipse_12-2" data-name="Ellipse 12" transform="translate(72.52 126.3)" stroke="#3ce9ee" stroke-width="1" fill="url(#radial-gradient)">
+          <circle cx="1" cy="1" r="1" stroke="none"/>
+          <circle cx="1" cy="1" r="0.5" fill="none"/>
+        </g>
+      </g>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="36" cy="36" r="36" transform="translate(15.022)" fill="url(#radial-gradient-2)"/>
+      <g transform="matrix(1, 0, 0, 1, -22.5, -5.3)" filter="url(#Ellipse_10)" style="mix-blend-mode: color-dodge;isolation: isolate">
+        <ellipse id="Ellipse_10-2" data-name="Ellipse 10" cx="9" cy="7" rx="9" ry="7" transform="translate(64.52 120.3)" fill="url(#radial-gradient-3)"/>
+      </g>
+      <g id="Path_46" data-name="Path 46" transform="translate(45.921 28.596)" fill="url(#radial-gradient-4)">
+        <path d="M.25,0A.25.25,0,1,1,0,.25.25.25,0,0,1,.25,0Z" stroke="none"/>
+        <path d="M 0.25 0 C 0.3880699872970581 0 0.5 0.1119300127029419 0.5 0.25 C 0.5 0.3880699872970581 0.3880699872970581 0.5 0.25 0.5 C 0.1119300127029419 0.5 0 0.3880699872970581 0 0.25 C 0 0.1119300127029419 0.1119300127029419 0 0.25 0 Z" stroke="none" fill="rgba(48,161,207,0)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -22.5, -5.3)" filter="url(#Subtraction_17)">
+        <path id="Subtraction_17-2" data-name="Subtraction 17" d="M51.228,118.215,0,17.2H102.456Z" transform="translate(22.5 5.3)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <path id="Path_74" data-name="Path 74" d="M91.385,830.859c-3.381,0-4.923.73-5.552,1.178H61.767c-.631-.509-2.181-1.337-5.585-1.337-3.9,0-6,2.056-6.359,4.094-.318,1.82.694,4.445,4.592,5.85,1,.359,1.96.694,2.892,1.018,3.481,1.21,6.5,2.261,7.793,3.41l.121.113a2.137,2.137,0,0,1,.632,2.25c-.294.72-1.138,1.116-2.376,1.116a4.745,4.745,0,0,1-.818-.066,1.819,1.819,0,1,0-3.285-1.077c0,.037,0,.072.005.109a.86.86,0,0,0,.017.23c.279,1.23,1.5,2.545,4.081,2.545,1.962,0,3.415-.8,3.987-2.2a3.239,3.239,0,0,0,.218-.879,17.69,17.69,0,0,0,2.865,1.721v2.551a35.611,35.611,0,0,0-4.255,3.067l-1.852,1.539H83.674l-1.99-1.556a38.514,38.514,0,0,0-4.5-3.061v-2.54a17.348,17.348,0,0,0,2.7-1.6,3.241,3.241,0,0,0,.222.917c.571,1.4,2.024,2.2,3.987,2.2,2.583,0,3.8-1.314,4.081-2.545a.86.86,0,0,0,.017-.23c0-.036.005-.072.005-.109a1.821,1.821,0,1,0-3.285,1.077,4.744,4.744,0,0,1-.819.067c-1.238,0-2.081-.4-2.376-1.116a2.138,2.138,0,0,1,.633-2.25c1.214-1.194,4.319-2.273,7.913-3.522.932-.324,1.9-.659,2.892-1.018,3.9-1.4,4.91-4.029,4.592-5.849C97.388,832.916,95.284,830.859,91.385,830.859Zm-36.379,8.148c-2.372-.855-3.734-2.391-3.468-3.913.231-1.321,1.756-2.654,4.644-2.654,3.258,0,3.626,1.447,3.665,1.7a19.842,19.842,0,0,0,2.336,7.439c-1.267-.5-2.717-1.007-4.3-1.559C56.952,839.7,55.993,839.362,55.006,839.007Zm37.556.159c-.987.356-1.946.689-2.874,1.011-1.546.537-2.962,1.031-4.206,1.52a19.962,19.962,0,0,0,2.33-6.907v0c.02-.15.039-.3.055-.448.139-.563.76-1.739,3.518-1.739,2.888,0,4.414,1.333,4.645,2.654C96.3,836.775,94.934,838.311,92.562,839.166Z" transform="translate(581.422 -366.159)" fill="#fff"/>
+  </g>
+</svg>

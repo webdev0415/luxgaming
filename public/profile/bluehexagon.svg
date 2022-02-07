@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.969" height="68.501" viewBox="0 0 60.969 68.501">
+  <defs>
+    <filter id="Path_50" x="0" y="0" width="60.969" height="68.501" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#39f1f7"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_50)">
+    <g id="Path_50-2" data-name="Path 50" transform="translate(53.47 7.5) rotate(90)" fill="none">
+      <path d="M40.126,0,53.5,22.985,40.126,45.969H13.375L0,22.985,13.375,0Z" stroke="none"/>
+      <path d="M 15.10039901733398 3.000003814697266 L 3.470973968505859 22.98453521728516 L 15.10037994384766 42.96906280517578 L 38.40029907226562 42.96906280517578 L 50.02972412109375 22.98453330993652 L 38.40029907226562 3.000003814697266 L 15.10039901733398 3.000003814697266 M 13.37518310546875 3.814697265625e-06 L 40.12551498413086 3.814697265625e-06 L 53.50070571899414 22.98453330993652 L 40.12551498413086 45.96906280517578 L 13.37516403198242 45.96906280517578 L -3.814697265625e-06 22.98453330993652 L 13.37518310546875 3.814697265625e-06 Z" stroke="none" fill="#39f1f7"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+.dialog {
+    @apply fixed z-10 inset-0 overflow-y-auto
+}
+
+.transition {
+    @apply flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0
+}
+
+.dialogOverlay {
+    @apply fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity
+}
+
+.centerWrapper {
+    @apply hidden sm:inline-block align-middle sm:align-middle sm:h-screen 
+}
+
+.transitionEnter {
+    @apply ease-out duration-300
+}
+
+.transitionLeave {
+    @apply ease-out duration-300
+}
+
+.modal {
+    @apply inline-block w-3/4 bg-primary rounded-lg text-left overflow-hidden 
+    shadow-xl transform transition-all sm:my-8 align-middle sm:max-w-lg sm:w-full py-4
+}
+
+.loginButton {
+    @apply  rounded-md border border-yellow-300 shadow-sm px-12 py-2 bg-luxYellow text-base 
+    font-medium text-gray-700 focus:outline-none sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="45.001" viewBox="0 0 64 45.001">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.971" r="0.969" gradientTransform="translate(0 0.224) scale(1 0.769)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.489" stop-color="#44aadc"/>
+      <stop offset="1" stop-color="#004a6f"/>
+    </radialGradient>
+    <filter id="Subtraction_22">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#016b9b" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Box_Button_Slanted" data-name="Box Button Slanted" transform="translate(0.5 0.5)">
+    <g data-type="innerShadowGroup">
+      <path id="Subtraction_22-2" data-name="Subtraction 22" d="M42.873,44H0V0H63V24.037L42.873,44Z" transform="translate(0 0)" fill="url(#radial-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, -0.5, -0.5)" filter="url(#Subtraction_22)">
+        <path id="Subtraction_22-3" data-name="Subtraction 22" d="M42.873,44H0V0H63V24.037L42.873,44Z" transform="translate(0.5 0.5)" fill="#fff"/>
+      </g>
+      <path id="Subtraction_22-4" data-name="Subtraction 22" d="M42.873,44H0V0H63V24.037L42.873,44Z" transform="translate(0 0)" fill="none" stroke="#30a1cf" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
